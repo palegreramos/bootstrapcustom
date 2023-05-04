@@ -1,0 +1,18 @@
+// https://getbootstrap.esdocu.com/docs/5.1/customize/sass/
+// Opción A: Incluir todo Bootstrap
+
+// Incluye cualquier sobrescritura de variable predeterminada aquí (aunque las funciones no estarán disponibles)
+$primary: blueviolet;
+$secondary: pink;
+$success: blue;
+$danger: red;
+$info: green;
+$warning: orange;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Luego agrega código personalizado adicional aquí
+.alpha { color: $purple; }
+.beta {
+  color: $yellow-300;
+  background-color: $indigo-900;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ejemplomodal.js",
+  "scripts": {
+    "sass": "sass ./scss/styles.scss styles.css",
+    "sass:watch": "sass --watch ./scss/styles.scss styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malegrera/ejemplosBootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malegrera/ejemplosBootstrap/issues"
+  },
+  "homepage": "https://github.com/malegrera/ejemplosBootstrap#readme",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.50.1"
+  }
+}
